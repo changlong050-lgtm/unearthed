@@ -85,3 +85,24 @@ main {
     color: rgb(228, 16, 133);
     text-decoration: none;
 }
+
+
+/* Detail Page CSS*/
+
+.gift-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container {
+    padding-left: 100px;
+    width: 40vw;
+}
+
+.image-container img {
+    width: 80%;
+}
+
+.gift-details {
+    width: 45vw;
+}
