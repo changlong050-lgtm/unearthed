@@ -11,7 +11,7 @@ const renderGifts = async ()=>{
             topContainer.classList.add('top-container')
 
             const bottomContainer = document.createElement('div')
-            bottomContainer.classList.add('botton-container')
+            bottomContainer.classList.add('bottom-container')
 
             topContainer.style.backgroundImage = `url(${gift.image})`
 
