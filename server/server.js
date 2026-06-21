@@ -2,8 +2,10 @@ import express from 'express'
 import './config/dotenv.js'
 
 import giftsRouter from './routes/gifts.js'
+import cors from 'cors'
 
 const app = express()
+app.use(cors())
 
 app.use('/public', express.static('./public'))
 app.use ('/scripts', express.static('./public/scripts'))
