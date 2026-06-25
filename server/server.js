@@ -6,9 +6,10 @@ import cors from 'cors'
 
 const app = express()
 app.use(cors())
+app.use(express.json())
 
-app.use('/public', express.static('./public'))
-app.use ('/scripts', express.static('./public/scripts'))
+// app.use('/public', express.static('./public'))
+// app.use ('/scripts', express.static('./public/scripts'))
 
 app.get('/',(req,res)=>{
     res.status(200).send('<h1>UnEarthed API </h1>')
